@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": 29.99,
+      "features": ["Cardio", "Strength"]
+    },
+    {
+      "id": 2,
+      "name": "Premium",
+      "price": 49.99,
+      "features": ["Cardio", "Strength", "Classes"]
+    },
+    {
+      "id": 3,
+      "name": "Ultimate",
+      "price": 79.99,
+      "features": ["Cardio", "Strength", "Classes", "Personal training"]
+    }
+  ]
+  

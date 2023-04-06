@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Link from './Link/Link';
+import Link from '../Link/Link';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 
 const Navbar = () => {
@@ -32,8 +32,10 @@ const Navbar = () => {
       path: '/services'
     }
   ]
+
+  
   return (
-    <nav className='bg-purple-400'>
+    <nav className='bg-purple-400 px-4'>
       <div onClick={() => setOpen(!open)} className='md:hidden'>
         <span>{open === true ?
           <XMarkIcon className="h-6 w-6 text-purple-500" />
