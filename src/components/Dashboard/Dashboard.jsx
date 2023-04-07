@@ -90,7 +90,7 @@ const marksArray = [
 
 const Dashboard = () => {
     return (
-        <div>
+        <div className=''>
             <LineChart
                 width={1000}
                 height={300}
